@@ -7,7 +7,7 @@ module.exports = {
     index: path.resolve(process.cwd(), './src/ejs/index.ejs')
   },
   output : {
-    filename: '[name]',
+    filename: '[name].html',
     path: path.resolve(process.cwd(), './dist')
   },
   module: {
