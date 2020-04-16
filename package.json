@@ -1,0 +1,22 @@
+{
+  "name": "ejs-html-loader-example",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "author": "kimulaco",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -w",
+    "build": "NODE_ENV=production webpack"
+  },
+  "devDependencies": {
+    "ejs": "^3.0.2",
+    "ejs-html-loader": "^4.0.1",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
