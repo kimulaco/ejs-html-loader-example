@@ -28,7 +28,7 @@ module.exports = {
   },
   plugins : [
     new HtmlWebpackPlugin({
-      filename : 'index',
+      filename : 'index.html',
       template : path.resolve(process.cwd(), './src/ejs/index.ejs')
     })
   ]
